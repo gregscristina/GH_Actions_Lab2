@@ -13,9 +13,3 @@ jobs:
       - name: Diga oi
         run: echo "Hello World!"
 
-      - name: Instalar dependências
-        run: npm install
-
-      - name: Executar app
-        run: node app.js
-
